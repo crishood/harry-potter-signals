@@ -1,0 +1,43 @@
+# Dependencies
+/node_modules
+/dist
+/.angular
+
+# Environment files
+.env
+.env.*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - IntelliJ IDEA/WebStorm
+.idea/
+*.iml
+*.iws
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.DS_Store
+Thumbs.db
+
+# System Files
+.DS_Store
+Thumbs.db
